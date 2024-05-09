@@ -18,4 +18,12 @@ function isPrime($Number){
     return true;
 }
 
+$UserInput = readline(("Enter a number: "));
+$Number = intval($UserInput);
+if (isPrime($Number)){
+    echo $UserInput, " is prime number \n"; }
+else {
+    echo $UserInput, " is not a prime number \n";
+ }
+
 ?>>
